@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class ContactsController extends Controller
 {
-    public function view()
+    public function PageContacts()
     {
-        return view('contacts');
+        return view('Navbar.contacts');
     }
 }

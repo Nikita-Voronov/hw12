@@ -1,8 +1,10 @@
-@include('layouts.app')
-
+@extends('layouts.app')
 @section('title-block')
-    Домашняя
+    Корзина
 @endsection
 @section('content')
-    asd
+<?php
+dd($_GET)
+    ?>
+
 @endsection
