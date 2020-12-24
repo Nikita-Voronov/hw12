@@ -18,13 +18,13 @@
     <p class="h5 my-0 me-md-auto fw-normal">Home work for IMT</p>
     <nav class="my-2 my-md-0 me-md-3">
         <a class="p-2 text-dark" href="/register">Зарегестрироваться</a>
-        <a class="p-2 text-dark" href="/home">Войти</a>
-        <a class="p-2 text-dark" href="/logout">Выйти</a>
+        <a class="p-2 text-dark" href="/login">Войти</a>
+        <a class="p-2 text-dark" href="{{route('logout')}}">Выйти</a>
         <a class="p-2 text-dark" href="/">Главная</a>
-        <a class="p-2 text-dark" href="/contacts">Контакты</a>
-        <a class="p-2 text-dark" href="/about">О нас</a>
-        <a class="p-2 text-dark" href="/products">Товары</a>
-        <a class="p-2 text-dark" href="/cart">Корзина</a>
+        <a class="p-2 text-dark" href="{{route('Contacts')}}">Контакты</a>
+        <a class="p-2 text-dark" href="{{route('About')}}">О нас</a>
+        <a class="p-2 text-dark" href="{{route('Products')}}">Товары</a>
+        <a class="p-2 text-dark" href="{{route('Cart')}}">Корзина</a>
     </nav>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
