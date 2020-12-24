@@ -4,7 +4,7 @@
 @endsection
 @section('content')
 <?php
-dd($_GET)
-    ?>
+var_dump($_GET);
+?>
 
 @endsection
